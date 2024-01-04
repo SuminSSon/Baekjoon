@@ -3,7 +3,8 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));Stack<Integer> stack = new Stack<>();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Stack<Integer> stack = new Stack<>();
         int cnt = 0;
         String S = br.readLine();
 
